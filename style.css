@@ -88,9 +88,35 @@ th {
 .book-columns {
     display: flex;
     justify-content: space-between;
-    column-count: 2;
+    flex-wrap: wrap; /* If there are too many columns to fit on one line, it will move to the next line */
 }
 
 .book-column {
     width: 45%; /* Adjust as needed */
+}
+
+.book {
+    height: 350px; /* Set a fixed height for the book div */
+    width: auto; /* Auto width */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* 10px bottom margin */
+}
+
+.acheter {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as a block element */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* 10px top margin */
+}
+
+.acheter:hover {
+    background-color: #09350b; /* Darker green */
+}
+
+.price {
+    margin-left: 10px; /* Add some space to the left of the price */
 }
