@@ -3,41 +3,30 @@
 <meta charset="UTF-8">
 
 <head>
-    <title>Axel et Hugo - Accueil</title>
-    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <title>Axel et Hugo - Bibliothèque</title>
+    <!-- Balise meta pour le référencement des moteurs de recherche -->
+    <meta name="description" content="Site de présentation de Axel GIRARD et Hugo VU">
+    <meta name="keywords" content="Axel GIRARD, Hugo VU, Entrepreneuriat, Séries">
+    <meta name="author" content="Axel GIRARD, Hugo VU">
+
+    <!-- Style global et style de la page -->
+    <link rel="stylesheet" type="text/css" href="../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../styles/series.css">
+
+    <!-- Bootstrap pour le carousel -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        /* Make the image fully responsive */
-        .carousel-inner img {
-            width: 50%;
-        }
-
-        .carousel-inner {
-            text-align: center;
-            /* Align images in the center */
-        }
-
-        .carousel-caption {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background */
-            color: #fff; /* White text */
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
+        <!-- Menu de navigation à reporter dans chaque page (pas possible de faire des includes en HTML pure) -->
         <nav>
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li>
                     <a href="./experiences.html">Notre expérience</a>
@@ -50,6 +39,7 @@
                 </li>
             </ul>
         </nav>
+        <!-- Contenu de la page -->
         <article>
             <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -104,14 +94,14 @@
                                 Kay Cannon et diffusée le 21 avril 2017 sur Netflix.</p>
                         </div>
 
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
         </article>
     </div>
 </body>

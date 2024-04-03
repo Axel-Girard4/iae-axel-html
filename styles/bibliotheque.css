@@ -1,0 +1,43 @@
+.photo {
+    border-radius: 50%; /* Rendre les images rondes */
+    margin: 10px; /* Ajouter un peu d'espace entre les images */
+    width: 300px; /* Définir la largeur des images */
+    height: 300px; /* Définir la hauteur des images TODO il serait mieux de mettre auto pour garder les proportions mais pour cela il faut changer la première photo */
+    filter: grayscale(100%); /* Rendre les images en noir et blanc */
+}
+
+.book-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.book-column {
+    width: 45%; 
+}
+
+.book {
+    height: 350px; 
+    width: auto; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.acheter {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+
+.acheter:hover {
+    background-color: #09350b;
+}
+
+.price {
+    margin-left: 10px;
+}

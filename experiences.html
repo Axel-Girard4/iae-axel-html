@@ -3,81 +3,102 @@
 <meta charset="UTF-8">
 
 <head>
-	<title>GIRARD Axel et VU Hugo - Accueil</title>
-	<link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>Axel et Hugo - Expériences</title>
+  <!-- Balise meta pour le référencement des moteurs de recherche -->
+  <meta name="description" content="Site de présentation de Axel GIRARD et Hugo VU">
+  <meta name="keywords" content="Axel GIRARD, Hugo VU, Entrepreneuriat, Séries">
+  <meta name="author" content="Axel GIRARD, Hugo VU">
+
+  <!-- Style global et style de la page -->
+  <link rel="stylesheet" type="text/css" href="../styles/global.css">
+  <link rel="stylesheet" type="text/css" href="../styles/experiences.css">
 </head>
 
 <body>
-	<div class="container">
-		<nav>
-			<ul>
-				<li>
-					<a href="#home">Home</a>
-				</li>
-				<li>
-					<a href="./experiences.html">Notre expérience</a>
-				</li>
-				<li>
-					<a href="./bibliotheque.html">Bibliothèque</a>
-				</li>
-				<li>
-					<a href="./series.html>">Nos séries</a>
-				</li>
-			</ul>
-		</nav>
-		<article>
-      <article>
-        <h2>Axel</h2>
-        <article>
-        <table>
-          <caption>Expériences professionnelles</caption>
-          <tr>
-            <th>Expérience</th>
-            <th>Durée</th>
-            <th>Responsabilités</th>
-          </tr>
-          <!-- rows for Axel's experiences -->
-          <tr>
-            <td>Conseiller bancaire chez Socram Banque (CDD)</td>
-            <td>Juillet 2023 - Août 2023 (2 mois)</td>
-            <td>Contrôle des dossiers de crédit, modifications des données clients, analyse des données financières, vigilance contre la fraude, service client et gestion de la relation client (CRM)</td>
-          </tr>
-          <tr>
-            <td>Employé de service au Family Fun Park (CDI)</td>
-            <td>Mars 2022 - Septembre 2022 (7 mois)</td>
-            <td>Gestion du bar, du service restauration et de la plonge, encadrement des enfants lors de compétitions et d'activités, surveillance et application des règles dans le Trampoline Park, accueil et conseils à la clientèle, service de bar et accueil de la clientèle</td>
-          </tr>
-        </table>
+  <div class="container">
+    <!-- Menu de navigation à reporter dans chaque page (pas possible de faire des includes en HTML pure) -->
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./experiences.html">Notre expérience</a>
+        </li>
+        <li>
+          <a href="./bibliotheque.html">Bibliothèque</a>
+        </li>
+        <li>
+          <a href="./series.html">Nos séries</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Contenu de la page -->
+    <article>
+      <h1>Nos expériences professionnelles</h1>
+      <table>
+        <caption>Expériences professionnelles - Axel</caption>
+        <tr>
+          <th class="experience">Expérience</th>
+          <th class="duree">Durée</th>
+          <th>Responsabilités</th>
+        </tr>
+        <tr>
+          <td>
+            <b>Conseiller bancaire chez Socram Banque</b> - CDD
+          </td>
+          <td>Juillet 2023 - Août 2023 (2 mois)</td>
+          <td>Contrôle des dossiers de crédit, modifications des données clients, analyse des données financières,
+            vigilance contre la fraude, service client et gestion de la relation client (CRM)</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Employé de service au Family Fun Park</b> - CDI
+          </td>
+          <td>Mars 2022 - Septembre 2022 (7 mois)</td>
+          <td>Gestion du bar, du service restauration et de la plonge, encadrement des enfants lors de compétitions
+            et d'activités, surveillance et application des règles dans le Trampoline Park, accueil et conseils à la
+            clientèle, service de bar et accueil de la clientèle</td>
+        </tr>
+      </table>
+      <br> <!-- Saute une ligne -->
+      <table>
+        <caption>Expériences professionnelles - Hugo</caption>
+        <tr>
+          <th class="experience">Expérience</th>
+          <th class="duree">Durée</th>
+          <th>Responsabilités</th>
+        </tr>
+        <tr>
+          <td>
+            <b>Sauveteur au SDIS 17</b> - Sapeurs-pompiers de la Charente-Maritime
+          </td>
+          <td>Juin 2021 - Aujourd'hui (2 ans 10 mois)</td>
+          <td>Surveillance constante de la zone de baignade pour détecter les signes de danger, intervention
+            immédiate en cas d'urgence, y compris le sauvetage de personnes en difficulté dans l'eau et la
+            fourniture de premiers secours, sensibilisation du public aux pratiques de baignade sûres, coordination
+            avec les équipes de secours locales pour une réponse efficace en cas de crise</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Propriétaire d'une petite entreprise de prestation de services</b>
+          </td>
+          <td>Décembre 2021 - Juin 2022 (7 mois)</td>
+          <td>Développement de partenariats avec les pharmacies, négociation et suivi des contrats, planification
+            des sessions de tests et conduite professionnelle des tests, gestion des stocks et approvisionnement,
+            recrutement et formation du personnel</td>
+        </tr>
+      </table>
+    </article>
 
-        <h2>Hugo</h2>
-        <table>
-          <caption>Expériences professionnelles</caption>
-          <tr>
-            <th>Expérience</th>
-            <th>Durée</th>
-            <th>Responsabilités</th>
-          </tr>
-          <!-- rows for Hugo's experiences -->
-          <tr>
-            <td>Sauveteur au SDIS 17 (Sapeurs-pompiers de la Charente-Maritime)</td>
-            <td>Juin 2021 - Aujourd'hui (2 ans 10 mois)</td>
-            <td>Surveillance constante de la zone de baignade pour détecter les signes de danger, intervention immédiate en cas d'urgence, y compris le sauvetage de personnes en difficulté dans l'eau et la fourniture de premiers secours, sensibilisation du public aux pratiques de baignade sûres, coordination avec les équipes de secours locales pour une réponse efficace en cas de crise</td>
-          </tr>
-          <tr>
-            <td>Propriétaire d'une petite entreprise de prestation de services</td>
-            <td>Décembre 2021 - Juin 2022 (7 mois)</td>
-            <td>Développement de partenariats avec les pharmacies, négociation et suivi des contrats, planification des sessions de tests et conduite professionnelle des tests, gestion des stocks et approvisionnement, recrutement et formation du personnel</td>
-          </tr>
-        </table>
-      </article>
-		</article>
     <footer class="footer-right">
-			<p>
-				Vous pouvez nous contacter aux adresses suivantes : <a href="mailto:axel.girard@etudiant.univ-lr.fr">axel.girard@etudiant.univ-lr.fr</a> ou <a href="mailto:hugo.vu@etudiant.univ-lr.fr">hugo.vu@etudiant.univ-lr.fr</a>
-			</p>
-		</footer>
-	</div>
+      <p>
+        Vous pouvez nous contacter aux adresses suivantes : <a
+          href="mailto:axel.girard@etudiant.univ-lr.fr">axel.girard@etudiant.univ-lr.fr</a> ou <a
+          href="mailto:hugo.vu@etudiant.univ-lr.fr">hugo.vu@etudiant.univ-lr.fr</a>
+      </p>
+    </footer>
+  </div>
 </body>
 
 </html>
-

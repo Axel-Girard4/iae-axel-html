@@ -4,11 +4,19 @@
 
 <head>
 	<title>Axel et Hugo - Accueil</title>
-	<link rel="stylesheet" type="text/css" href="../style.css" />
+	<!-- Balise meta pour le référencement des moteurs de recherche -->
+	<meta name="description" content="Site de présentation de Axel GIRARD et Hugo VU">
+	<meta name="keywords" content="Axel GIRARD, Hugo VU, Entrepreneuriat, Séries">
+	<meta name="author" content="Axel GIRARD, Hugo VU">
+	
+	<!-- Style global et style de la page -->
+	<link rel="stylesheet" type="text/css" href="../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../styles/index.css">
 </head>
 
 <body>
 	<div class="container">
+		<!-- Menu de navigation à reporter dans chaque page (pas possible de faire des includes en HTML pure) -->
 		<nav>
 			<ul>
 				<li>
@@ -25,6 +33,7 @@
 				</li>
 			</ul>
 		</nav>
+		<!-- Contenu de la page -->
 		<header>
 			<h1>Bienvenue sur le site de GIRARD Axel et VU Hugo</h1>
 			<h2>
@@ -34,20 +43,19 @@
 		<article>
 			<div class="photos">
 				<div>
-					<img class="photo" src="./img/Axel.jpg" alt="Axel GIRARD" title="Axel GIRARD" />
+					<img class="photo" src="./img/Axel.jpg" alt="Axel GIRARD" title="Axel GIRARD">
 					<p>Axel GIRARD</p>
 				</div>
 
 				<div>
-					<img class="photo" src="./img/Hugo.jpg" alt="Hugo Vu" title="Hugo VU" />
+					<img class="photo" src="./img/Hugo.jpg" alt="Hugo Vu" title="Hugo VU">
 					<p>Hugo VU</p>
 				</div>
 			</div>
 
 			<p>
 				Ce site est dédié à présenter nos experiences professionnelles ainsi que la vente de nos livres et nos
-				séries préferées.
-				Que vous soyez intéressé par l'entrepreneuriats, les séries ou que vous cherchiez simplement des
+				séries préferées. Que vous soyez intéressé par l'entrepreneuriats, les séries ou que vous cherchiez simplement des
 				informations pertinentes et utiles, vous êtes au bon endroit.
 			</p>
 			<p>
@@ -58,7 +66,9 @@
 		</article>
 		<footer class="footer-right">
 			<p>
-				Vous pouvez nous contacter aux adresses suivantes : <a href="mailto:axel.girard@etudiant.univ-lr.fr">axel.girard@etudiant.univ-lr.fr</a> ou <a href="mailto:hugo.vu@etudiant.univ-lr.fr">hugo.vu@etudiant.univ-lr.fr</a>
+				Vous pouvez nous contacter aux adresses suivantes : <a
+					href="mailto:axel.girard@etudiant.univ-lr.fr">axel.girard@etudiant.univ-lr.fr</a> ou <a
+					href="mailto:hugo.vu@etudiant.univ-lr.fr">hugo.vu@etudiant.univ-lr.fr</a>
 			</p>
 		</footer>
 	</div>

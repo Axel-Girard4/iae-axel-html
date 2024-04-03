@@ -1,0 +1,27 @@
+ /* Styles pour la page des séries */
+ 
+ .carousel-inner img {
+    width: 50%;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Pour rendre le fond de la légende plus opaque */
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-size: 2em; /* Augmenter la taille du texte */
+}
+
+.carousel-caption p {
+    font-size: 1.5em; /* Augmenter la taille du texte */
+}

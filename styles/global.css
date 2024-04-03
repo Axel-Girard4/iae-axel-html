@@ -1,0 +1,41 @@
+/* Conteneur principale permettant de mettre en forme le site */
+.container {
+    background-color: #d39696; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 1400px; 
+    border-radius: 5px; 
+    height: 100%;
+}
+
+/* Barre de navigation */
+nav {
+    background-color: #cd3838;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Bas de page */
+.footer-right {
+    text-align: right;
+    opacity: 0.5; /* Make the footer less visible */
+    font-size: 0.8em; /* Make the font smaller */
+}
