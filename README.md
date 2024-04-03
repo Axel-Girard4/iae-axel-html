@@ -12,6 +12,8 @@ Pour installer le projet, il suffit de cloner le dépôt git sur votre machine.
 git clone https://github.com/Axel-Girard4/iae-axel-html.git
 ```
 
+Si vous n'avez pas git d'installé sur votre machine, vous pouvez le télécharger sur le site officiel de [git](https://git-scm.com/downloads).
+
 ## Utilisation
 
 Pour utiliser le projet, il suffit d'ouvrir le fichier `index.html` dans un navigateur web ou d'utiliser l'extension Live Server de Visual Studio Code, en cliquant sur le bouton "Go Live" en bas à droite de l'éditeur ou en faisant un clic droit sur le fichier `index.html` et en cliquant sur "Open with Live Server".
