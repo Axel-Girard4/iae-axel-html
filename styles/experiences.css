@@ -15,23 +15,23 @@ th, td {
 }
 
 th {
-    background-color: #b44a4a; /* Make the header cells green */
+    background-color: #46639a; /* Make the header cells green */
     color: white; /* White text */
 }
 
 /* Lignes impaires */
 tr:nth-child(even) {
-    background-color: #efd1d1; 
+    background-color: #c7d3d7; 
 }
 
 /* Lignes paires */
 tr:nth-child(odd) {
-    background-color: #f7eaea; /* Dark gray background for odd rows */
+    background-color: #a2b5c5; /* Dark gray background for odd rows */
 }   
 
 /* Lorsque la souris passe sur une ligne */
 tr:hover {
-    background-color: #ad75a4; 
+    background-color: #5275a1; 
 }
 
 .experience {

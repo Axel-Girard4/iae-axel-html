@@ -7,7 +7,7 @@ function myMove() {
     id = setInterval(frame, 5);
     function frame() {
         console.log(pos);
-        if (pos == 755) {
+        if (pos == 800) {
             clearInterval(id);
         } else {
             pos++;
