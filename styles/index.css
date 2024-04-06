@@ -44,3 +44,28 @@ header h2 {
 .photos img:hover {
     transform : scale(1.1);
 }
+
+/* Bouton "Où sommes-nous ?" */
+.ou-sommes-nous {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #a9333d; 
+    color: white; 
+    padding: 5px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+}
+
+.ou-sommes-nous:hover {
+    background-color: #7a1f25;
+}
+
+.ou-sommes-nous a {
+    color: white;
+    text-decoration: none;
+}
