@@ -26,12 +26,21 @@ header h2 {
 .photo {
     border-radius: 50%; /* Rendre les images rondes */
     margin: 10px; /* Ajouter un peu d'espace entre les images */
-    width: 400px; /* Définir la largeur des images */
-    height: 400px; /* Définir la hauteur des images TODO il serait mieux de mettre auto pour garder les proportions mais pour cela il faut changer la première photo */
+    width: 350px; /* Définir la largeur des images */
+    height: 350px; /* Définir la hauteur des images TODO il serait mieux de mettre auto pour garder les proportions mais pour cela il faut changer la première photo */
     filter: grayscale(100%); /* Rendre les images en noir et blanc */
 }
 
 .photos div {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.photos img {
+
+    transition : transform 0.3s ease;
+}
+
+.photos img:hover {
+    transform : scale(1.1);
 }
